@@ -1,0 +1,87 @@
+.bg-person{
+    background-color: #00ff6e;
+}
+#logo{
+    width: 180px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#fundo{
+    background-color: #63fca5;
+    color: white;
+}
+
+#exbition{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./bg.png);
+}
+
+.block{ 
+    height: 300px;
+    width: 350px;
+    transition: all 0.6s ease;
+    background-color: #00b4d8;
+
+}
+
+.block:hover{
+    transition: ease 0.6s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.block a{
+    text-decoration: none!important;
+}
+
+.block h5{
+    margin-top: 15px;
+    color: white;
+}
+
+.block p{
+    margin-top: 10px;
+    color: white;
+}
+
+#fundo h1{
+    font-size: 56px!important;
+}
+
+#fundo p{
+    font-size: 28px!important;
+}
+
+/*
+#block-img-1{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    max-width: 300px;
+    margin-left: 10px;
+}
+
+#block-img-2{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    max-width: 320px;
+    max-height: 220px;
+}
+
+#block-img-3{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    max-width: 250px;
+}  
+.arrow{
+    margin-top: 15px;
+    margin-left: 54px;
+    color: white;
+}
+*/
+
