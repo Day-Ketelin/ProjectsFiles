@@ -1,4 +1,4 @@
-.bg-person{
+    .bg-person{
     background-color: #00ff6e;
 }
 #logo{
@@ -9,21 +9,41 @@
     font-size: 16px;
 }
 
-#fundo{
+#fundo-1{
     background-color: #63fca5;
     color: white;
+    font-family: sans-serif;
+    font-size: 21px;
+    height: 100%!important;
+    color: rgb(63, 201, 8);
+    z-index: 0;
+}
+
+#fundo-1 .start{
+    font-weight: 600;
+    font-size: 62px;
+    border-left: #00ff6e 2px solid;
+}
+
+#fundo-1 h2{
+    font-weight: 600;
+    font-size: 62px;
+}
+
+.justIN{
+    color: #212529!important;
 }
 
 #exbition{
+    height: 5   00px!important;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./bg.png);
+    z-index: 1;
 }
 
 .block{ 
-    height: 300px;
-    width: 350px;
+    height: 15rem;
+    width: 12em;
     transition: all 0.6s ease;
-    background-color: #00b4d8;
-
 }
 
 .block:hover{
@@ -33,55 +53,46 @@
     transform: scale(1.1);
 }
 
-.block a{
-    text-decoration: none!important;
+.long{
+    z-index: 3;
+    font-size: 34px;
+    font-weight: 600;
 }
 
-.block h5{
-    
-    color: white;
+#fundo-2{
+    background-color: #9ef01a;
 }
 
-.block p{
-    ;
-    color: white;
+#fundo-2 h1{
+    font-weight: 600;
+    font-size: 62px;
 }
 
-#fundo h1{
-    font-size: 56px!important;
+#fundo-2 h3{
+    font-weight: 600;
+    font-size: 42px;
 }
 
-#fundo p{
-    font-size: 28px!important;
+.exibe-servicos{
+    font-weight: 600;
+    font-size: 56px;
 }
 
-/*
-#block-img-1{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    max-width: 300px;
-    margin-left: 10px;
+.exibe-servicos-decricao, ul, li{
+    font-size: 26px;   
 }
 
-#block-img-2{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    max-width: 320px;
-    max-height: 220px;
+.big-title{
+    font-weight: 600;
+    font-size: 76px;
 }
 
-#block-img-3{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-    max-width: 250px;
-}  
-.arrow{
-    margin-top: 15px;
-    margin-left: 54px;
-    color: white;
-}
-*/
 
+.bbig-title{
+    font-weight: 600;
+    font-size: 56px;
+}
+
+.carrousel-limiter{
+    width: 600px;
+}
