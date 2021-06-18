@@ -40,6 +40,7 @@
     z-index: 1;
 }
 
+/*
 .block{ 
     height: 15rem;
     width: 12em;
@@ -53,6 +54,7 @@
     transform: scale(1.1);
 }
 
+*/
 .long{
     z-index: 3;
     font-size: 34px;
@@ -93,6 +95,19 @@
     font-size: 56px;
 }
 
+
+/* Planos.html */
 .carrousel-limiter{
     width: 600px;
 }
+
+/* Login.html */
+.block{
+    width: 60%;
+}
+
+#heading{
+    background-color: #26bb66;
+}
+
+/*  Acessando.html */
